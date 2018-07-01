@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900&subset=latin-ext');
+* {
+	box-sizing: border-box;	
+	font-family: 'Raleway';
+}
+body {
+	margin: 0 auto;
+}
+
+/* ----HEADER---- */
+
+header {
+	background-color: #313234;
+	height: 70px;
+}
+header img {
+	height: 65px;
+	padding: 0;
+}
+header ul {
+ 	float: right;
+  	margin: 0;
+  	padding: 0;
+  	list-style-type: none;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li:first-child a {
+	color: #04C2E3;
+}
+header ul li:first-child a:hover {
+	color: #FFF;
+}
+header ul a:hover {
+	color: #04C2E3;	
+}
+header ul a {
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 70px;
+	padding: 0 20px;
+	font-weight: 900;
+	font-size: 20px;
+	color: #FFF;
+	transition: 0.3s;
+}
+header ul a:hover {
+	background-color: #5F5F5F;
+}
+
+/* ----"HERO" SECTION"---- */
+
+.hero {
+	background-image: url(https://images.unsplash.com/photo-1505085702750-96d89f461398?dpr=1&auto=format&fit=crop&w=1950&h=&q=60&cs=tinysrgb&crop=);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 500px;
+}
+.hero .slogan {
+	background-color: rgba(0, 0, 0, 0.5);
+	float: right;
+	width: 900px;
+  	margin-top: 150px;
+  	
+}
+.hero .slogan h1 {
+	text-transform: uppercase; 
+	font-size: 42px;
+	font-weight: 500;
+	padding-left: 40px;
+}
+.hero .slogan h1 span {
+	display: block;
+	font-weight: 900;	
+}
+
+/* ----"PROFITS" SECTION---- */
+
+.profits .icon {
+	font-size: 60px;
+	color: #FFF;
+	background-color: #313332;
+	padding: 35px;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	transition: 0.5s;
+}
+.profits .profit:hover .icon {
+	background-color: #04C2E3;
+	transform: scale(1.10);
+}
+.profits .profit:hover h2 {
+	color: 	#04C2E3;
+}
+.profits .profit h2 {
+	text-transform: uppercase;
+	transition: 0.5s;
+	color: #03282E;
+}
+.profits .profit p {
+	line-height: 26px;	
+	color: #909090;
+}
+
+/* ----"FEATURED" SECTION---- */
+
+.featured h1 {
+	font: 900 55px 'Raleway' ;
+	color: #313332;
+}
+.featured p {
+	color: #909090;	
+	font-size: 24px;
+}
+/*----"GALLERY" SECTION---- */
+
+.gallery [class^="col-"] {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	min-height: 200px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.gallery .layer {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	padding-top: 60px;
+	font-size: 22px;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	margin-top: -200px;
+	transition: 0.3s linear;
+}
+.gallery .fa-lg {
+	margin: 20px 30px;	
+	background-color: rgba(96, 96, 96, 0.8);
+	padding: 7px;
+	border-radius: 7px;
+	border: 1px solid;
+	width: 45px;
+}
+.gallery .fall:hover div {
+	margin: 0;
+}
+.pic-1 {
+	background-image: url(http://www.ilikewallpaper.net/ipad-air-wallpapers/download/23766/Sunset-Lake-Night-Dark-Nature-ipad-air-wallpaper-ilikewallpaper_com_1024.jpg);
+}
+.pic-2 {
+	background-image: url(http://all4desktop.com/data_images/1440%20x%20900/4230863-private-dock-sunset.jpg);
+}
+.pic-3 {
+	background-image: url(https://res.cloudinary.com/clippings/image/upload/t_small/f_auto/v1/products/etoile-wallpaper-sample-sian-elin-clippings-1199041.jpg);
+}
+.pic-4 {
+	background-image: url(https://sits-pod37.demandware.net/dw/image/v2/BBBG_PRD/on/demandware.static/-/Sites-product-master/default/dwb4255b93/images/large/17267_5.jpg?sw=533&sh=533&sm=fit);
+}
+.pic-5 {
+	background-image: url(https://pro.keepvid.com/images/en/4k/kwallpaper-25.jpg);
+}
+.pic-6 {
+	background-image: url(https://houseoffraser.scene7.com/is/image/HOF/G_5011583308303_50_20160729); /* heavy file */
+}
+.pic-7 {
+	background-image: url(https://ae01.alicdn.com/kf/HTB1HL5JIFXXXXalapXXq6xXFXXXq/New-3D-font-b-Iron-b-font-Man-Mural-font-b-wallpaper-b-font-full-Wall.jpg);
+}
+.pic-8 {
+	background-image: url(https://secure.img2-fg.wfcdn.com/im/87612486/resize-h400-w400%5Ecompr-r85/1382/13829046/Dunes+Brick+Paintable+31.4%22+x+24.6%22+Abstract+3D+Embossed+6+Piece+Panel+Wallpaper+%28Set+of+6%29.jpg);
+}
+.pic-9 {
+	background-image: url(http://www.ilikewallpaper.net/ipad-air-wallpapers/download/12366/Pastel-Sunset-iPad-4-wallpaper-ilikewallpaper_com.jpg);
+}
+.pic-10 {
+	background-image: url(http://www.aneesoft.com/images/tutorials/ipad/free-ipad-wallpapers-fishes.jpg);
+}
+
+/* ---- "WORKERS" SECTION ---- */
+
+.workers .radial {
+	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
+	max-width: 250px;
+	max-height: 250px;
+	margin: 0 auto;
+	
+}
+.workers .layer {
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	background-color: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 0, 0);
+	
+}
+.workers img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.workers .radial > .layer p {
+	font-size: 30px;
+	line-height: 200px;
+}
+.workers .worker:hover .layer {
+	background-color: rgba(0, 0, 0, 0.5);	
+	color: #FFF;
+}
+
+/* ----"BANNER" SECTION----*/
+
+.banner {
+	background-image: url(https://static.pexels.com/photos/355654/pexels-photo-355654.jpeg);	
+	background-size: cover;
+	max-height: 500px;
+}
+.banner .ban-img {
+	position: relative;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+}
+.banner .ban-img img {
+	position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.banner .ban-txt h1 {
+	font-size: 55px;
+	font-weight: 900;
+	text-align: left;
+	margin-bottom: 18px;
+}
+.banner .ban-txt-deep {
+	padding: 0;	
+	
+}
+.banner .ban-txt-deep p {
+	text-align: left;	
+	margin-top: 0;
+	font-size: 20px;
+}
+
+/*----"NUMBERS" SECTOIN----*/
+
+.numbers .num h2 {
+	font-size: 70px;
+	font-weight: 900;
+	margin-bottom: -5px;
+}
+.numbers .num p {
+	font-size: 25px;
+	font-weight: 600;
+	color: #04C2E3;
+}
+
+/*----"FOOTER"---- */
+
+footer {
+	background-color:	#313332;
+}
+footer .col-head h2 {
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 26px;
+	margin-right: 10px;
+}
+footer .col-head p {
+	color: #FFF;	
+	text-align: left;
+	font-size: 18px;
+	font-weight: 200;
+}
+footer .col-head h2:after {
+	content: "";
+	width: 80px;
+	border-bottom: solid 2px;
+	border-color: #FFF;
+	display: inline-block;
+	margin: 0  0 10px 18px;
+}
+footer .row.thin,
+footer .row.thin > div {
+	padding: 0;
+	margin: 0;
+}
+footer .row.thin > div:nth-child(odd) p {
+	font-weight: 600;	
+}
+footer .col-head i {
+	padding: 5px;
+	margin: 5px;
+	font-size: 20px;
+	background-color: #04C2E3;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	color: #FFF;
+	transition: 0.3s;
+}
+footer .col-head i:hover {
+	transform: scale(1.10);	
+	color: #000;
+	cursor: pointer;
+}
+.footer-end {
+	background-color: #252726;
+}
+.footer-end {
+	height: 80px;
+	text-align: center;
+	padding: 10px;
+}
+.footer-end p {
+	font-weight: 600;
+	font-size: 18px;
+	color: #FFF;
+}
+
+/* ----GRID----*/
+section>.container {
+	margin: 50px auto;
+	text-align: center;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+[class*="col-"] {
+	float: left;
+	min-height: 1px;
+	padding: 16px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-offset-0 {margin-left: 0;}
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+.col-offset-12 {margin-left: 100%;}
+
